@@ -4,42 +4,42 @@
     "name": "WhatsApp",
     "bundleID": "net.whatsapp.WhatsApp",
     "file": "NotGone-WhatsApp.shortcut",
-    "status": "blocked-field-mapping",
-    "sha256": "8109370fef03d34709c0dd6b74c6ed01c344588b567732db5c5c67926824aa4d"
+    "status": "device-validation-pending",
+    "sha256": "5f2cf9b3dea3d0290f44441b4f22edfdfea8b0c438d7abe0d156a1fac574a580"
   },
   {
     "slug": "telegram",
     "name": "Telegram",
     "bundleID": "ph.telegra.Telegraph",
     "file": "NotGone-Telegram.shortcut",
-    "status": "blocked-field-mapping",
-    "sha256": "03ea34b2129d2f2125dc9e40b547575e1ffe4fb7a258b4d13bc74450cb6ad244"
+    "status": "device-validation-pending",
+    "sha256": "bb98ce207223042b5dc3136b16727cd1ef76d0dbb4576f99490f2e519151c110"
   },
   {
     "slug": "instagram",
     "name": "Instagram",
     "bundleID": "com.burbn.instagram",
     "file": "NotGone-Instagram.shortcut",
-    "status": "blocked-field-mapping",
-    "sha256": "05628fde34b1bd0be5bf9e7ebce48ef07e230919df37e18e1bd25cee4231cf6a"
+    "status": "device-validation-pending",
+    "sha256": "71b9f7ab5e0862f8f1468038367fa5b83570884fe222a457d7e42c409171b6e8"
   },
   {
     "slug": "messages",
     "name": "Messages",
     "bundleID": "com.apple.MobileSMS",
     "file": "NotGone-Messages.shortcut",
-    "status": "blocked-field-mapping",
-    "sha256": "a1e289839c63c12959621dc3f4b9695004d1c0cecdba2a5a6976b6a66b4dc130"
+    "status": "device-validation-pending",
+    "sha256": "f164485712e9295e39c90675359d1633989f957cbb10e5d3e4b6a57d947b4b10"
   },
   {
     "slug": "universal",
     "name": "Universal",
     "file": "NotGone-Universal.shortcut",
-    "status": "blocked-field-mapping",
+    "status": "device-validation-pending",
     "sourceIdentification": "Notification.App.Bundle Identifier",
     "initialTriggerSources": [
       "ph.telegra.Telegraph"
     ],
-    "sha256": "56b9413faa18768b8a9322d279a468e61e440249790ae656f80d9539f4d398e3"
+    "sha256": "8fdaf7963fa07b162f0ac5f33ad15b3a9ffe76949f6345db3def683bf54c7e9a"
   }
 ]

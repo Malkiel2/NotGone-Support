@@ -9,30 +9,11 @@ body{font:17px/1.6 system-ui,sans-serif;color:#20362e;background:#f4f6f0;margin:
 </style>
 <main>
 <a href="../">NotGone</a>
-<h1>One shortcut. Automatic source identification.</h1>
-<p class="status">Device-validation preview · Requires NotGone and iOS or iPadOS 27. The installer is signed. Its source App and Bundle Identifier mappings were authored and inspected in Apple’s editor; real notification delivery from the imported general installer still needs device verification.</p>
-<p>Open this page on the device where NotGone is installed. The general shortcut identifies each notification’s actual source app and lets NotGone filter it before saving.</p>
-<nav aria-label="Capture installers">
-<a href="NotGone-Universal.shortcut">Add general capture shortcut</a>
-</nav>
-<ol>
-<li>Open the downloaded file in Apple Shortcuts and choose <strong>Add Shortcut</strong>. Source identification, Title, Subtitle, Body, and Date are already wired.</li>
-<li>The initial trigger selects Telegram. In the imported shortcut’s notification trigger, choose your source app or use <strong>+</strong> to add apps. Keep NotGoneSourceApp and the capture action’s field mappings unchanged. You can use this same general shortcut for different source apps.</li>
-<li>Turn on <strong>Automation</strong> and review any system permission prompts and Allow Running When Locked where offered. If replacing an older source-specific shortcut, turn that older automation off to avoid duplicate runs.</li>
-<li>Receive a notification with a text preview, then check NotGone’s <strong>Capture health</strong>. Confirm both a real receipt and the correct source. Importing or running a synthetic storage check does not verify delivery.</li>
-</ol>
-<p>NotGone applies its policy before saving: capture must be enabled, excluded sources are ignored, Free saves only your selected source, and Pro permits multiple sources. The updated app quietly filters policy rejections rather than showing a shortcut storage error.</p>
-<p><strong>All apps at once:</strong> no “Select All” or “Any App” option was found in the inspected macOS 27 picker. That does not establish the iPadOS picker’s behavior. This installer does not claim a system-wide wildcard or automatically include newly installed apps.</p>
-<details><summary>Older single-source installers</summary>
-<p>These older installers use a fixed source identity. Do not add other source apps to their triggers. Use the general installer above for automatic identification.</p>
-<nav aria-label="Older capture installers">
-<a href="NotGone-WhatsApp.shortcut">Add WhatsApp capture</a>
-<a href="NotGone-Telegram.shortcut">Add Telegram capture</a>
-<a href="NotGone-Instagram.shortcut">Add Instagram capture</a>
-<a href="NotGone-Messages.shortcut">Add Messages capture</a>
-</nav>
-</details>
-<p>Only delivered notification text can be saved. Earlier messages, attachments, and hidden previews cannot be retrieved. These installers contain workflow logic only; captured notification content stays in NotGone on the device.</p>
-<small>AppTunesLabs · <a href="mailto:apptuneslabs@gmail.com">apptuneslabs@gmail.com</a> · <a href="../privacy/">Privacy</a> · <a href="manifest.json">Installer hashes and validation status</a></small>
+<h1>Capture installer update in progress</h1>
+<p class="status">Device testing on iPadOS 27.2 found that the earlier preview files did not preserve the capture action’s notification-field mappings. Downloads from this page are paused while the serialization is corrected and checked on the device.</p>
+<p>The updated NotGone app has been installed on the test iPad. Automatic source identification and policy filtering are implemented; the imported shortcut still needs its field-mapping and real-notification checks before it is ready.</p>
+<p>If you already added an earlier NotGone preview shortcut, keep its automation off until the corrected installer is available.</p>
+<p>Bulk source selection is still under investigation. No system-wide notification wildcard has been verified.</p>
+<small>AppTunesLabs · <a href="mailto:apptuneslabs@gmail.com">apptuneslabs@gmail.com</a> · <a href="../privacy/">Privacy</a> · <a href="manifest.json">Installer validation status</a></small>
 </main>
 </html>

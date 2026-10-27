@@ -4,7 +4,7 @@
     "name": "WhatsApp",
     "bundleID": "net.whatsapp.WhatsApp",
     "file": "NotGone-WhatsApp.shortcut",
-    "status": "device-validation-pending",
+    "status": "blocked-field-mapping",
     "sha256": "8109370fef03d34709c0dd6b74c6ed01c344588b567732db5c5c67926824aa4d"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Telegram",
     "bundleID": "ph.telegra.Telegraph",
     "file": "NotGone-Telegram.shortcut",
-    "status": "device-validation-pending",
+    "status": "blocked-field-mapping",
     "sha256": "03ea34b2129d2f2125dc9e40b547575e1ffe4fb7a258b4d13bc74450cb6ad244"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Instagram",
     "bundleID": "com.burbn.instagram",
     "file": "NotGone-Instagram.shortcut",
-    "status": "device-validation-pending",
+    "status": "blocked-field-mapping",
     "sha256": "05628fde34b1bd0be5bf9e7ebce48ef07e230919df37e18e1bd25cee4231cf6a"
   },
   {
@@ -28,14 +28,14 @@
     "name": "Messages",
     "bundleID": "com.apple.MobileSMS",
     "file": "NotGone-Messages.shortcut",
-    "status": "device-validation-pending",
+    "status": "blocked-field-mapping",
     "sha256": "a1e289839c63c12959621dc3f4b9695004d1c0cecdba2a5a6976b6a66b4dc130"
   },
   {
     "slug": "universal",
     "name": "Universal",
     "file": "NotGone-Universal.shortcut",
-    "status": "device-validation-pending",
+    "status": "blocked-field-mapping",
     "sourceIdentification": "Notification.App.Bundle Identifier",
     "initialTriggerSources": [
       "ph.telegra.Telegraph"

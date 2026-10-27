@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "whatsapp",
+    "name": "WhatsApp",
+    "bundleID": "net.whatsapp.WhatsApp",
+    "file": "NotGone-WhatsApp.shortcut",
+    "status": "device-validation-pending",
+    "sha256": "ddf9b1b6dfaa0102fddd3d913d7c9cf6425dfadcba9c4123a005486f51453d7b"
+  },
+  {
+    "slug": "telegram",
+    "name": "Telegram",
+    "bundleID": "ph.telegra.Telegraph",
+    "file": "NotGone-Telegram.shortcut",
+    "status": "device-validation-pending",
+    "sha256": "d51a7d45d5542d8edc054e9015e7e78346d05b9914ec7fadf749d69586d0951b"
+  },
+  {
+    "slug": "instagram",
+    "name": "Instagram",
+    "bundleID": "com.burbn.instagram",
+    "file": "NotGone-Instagram.shortcut",
+    "status": "device-validation-pending",
+    "sha256": "3dcfd679872051635fdd44dd903d3fd46a41f8245e3a86cef9746a1e390f59c5"
+  },
+  {
+    "slug": "messages",
+    "name": "Messages",
+    "bundleID": "com.apple.MobileSMS",
+    "file": "NotGone-Messages.shortcut",
+    "status": "device-validation-pending",
+    "sha256": "eaeaf756014c3c9afb04facbb32313767cc01111c7d5b6cd48b77171b3779a28"
+  }
+]

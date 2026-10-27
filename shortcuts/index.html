@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>NotGone capture installers — device preview</title>
+<style>
+body{font:17px/1.6 system-ui,sans-serif;color:#20362e;background:#f4f6f0;margin:0;padding:24px}main{max-width:680px;margin:40px auto}h1{line-height:1.15}a{color:#17664b}nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:28px 0}nav a{display:block;padding:18px;background:#fff;border:1px solid #cddbd2;border-radius:16px;text-decoration:none;font-weight:650}li{margin-bottom:12px}.status{padding:16px;background:#fff;border-radius:14px}small{display:block;margin-top:32px}
+</style>
+<main>
+<a href="../">NotGone</a>
+<h1>Ready-made capture shortcuts</h1>
+<p class="status">Device-validation preview · Requires NotGone and iOS or iPadOS 27. These files are signed and their action parameters match the app. Real notification capture from an imported installer is still awaiting verification.</p>
+<p>Open this page on the device where NotGone is installed. Download the shortcut for the same source you selected in NotGone.</p>
+<nav aria-label="Capture installers">
+<a href="NotGone-WhatsApp.shortcut">Add WhatsApp capture</a>
+<a href="NotGone-Telegram.shortcut">Add Telegram capture</a>
+<a href="NotGone-Instagram.shortcut">Add Instagram capture</a>
+<a href="NotGone-Messages.shortcut">Add Messages capture</a>
+</nav>
+<ol>
+<li>Open the downloaded file in Apple Shortcuts and choose <strong>Add Shortcut</strong>. The notification trigger and Title, Subtitle, Body, and Date are already wired.</li>
+<li>Open the imported shortcut, expand its notification trigger, and turn on <strong>Automation</strong>. Imported automations start off. Review any system permission prompts and Allow Running When Locked where offered.</li>
+<li>Receive a notification with a text preview from that source, then check NotGone’s <strong>Capture health</strong>. A real receipt verifies the connection; adding the shortcut or running a synthetic storage check does not.</li>
+</ol>
+<p>Each installer is for one named app. Keep its source trigger unchanged. For another app, install its separate shortcut and select that source in NotGone; multiple sources require Pro.</p>
+<p>Only delivered notification text can be saved. Earlier messages, attachments, and hidden previews cannot be retrieved. These installers contain workflow logic only; captured notification content stays in NotGone on the device.</p>
+<small>AppTunesLabs · <a href="mailto:apptuneslabs@gmail.com">apptuneslabs@gmail.com</a> · <a href="../privacy/">Privacy</a> · <a href="manifest.json">Installer hashes and validation status</a></small>
+</main>
+</html>

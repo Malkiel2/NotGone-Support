@@ -5,7 +5,7 @@
     "bundleID": "net.whatsapp.WhatsApp",
     "file": "NotGone-WhatsApp.shortcut",
     "status": "device-validation-pending",
-    "sha256": "ddf9b1b6dfaa0102fddd3d913d7c9cf6425dfadcba9c4123a005486f51453d7b"
+    "sha256": "8109370fef03d34709c0dd6b74c6ed01c344588b567732db5c5c67926824aa4d"
   },
   {
     "slug": "telegram",
@@ -13,7 +13,7 @@
     "bundleID": "ph.telegra.Telegraph",
     "file": "NotGone-Telegram.shortcut",
     "status": "device-validation-pending",
-    "sha256": "d51a7d45d5542d8edc054e9015e7e78346d05b9914ec7fadf749d69586d0951b"
+    "sha256": "03ea34b2129d2f2125dc9e40b547575e1ffe4fb7a258b4d13bc74450cb6ad244"
   },
   {
     "slug": "instagram",
@@ -21,7 +21,7 @@
     "bundleID": "com.burbn.instagram",
     "file": "NotGone-Instagram.shortcut",
     "status": "device-validation-pending",
-    "sha256": "3dcfd679872051635fdd44dd903d3fd46a41f8245e3a86cef9746a1e390f59c5"
+    "sha256": "05628fde34b1bd0be5bf9e7ebce48ef07e230919df37e18e1bd25cee4231cf6a"
   },
   {
     "slug": "messages",
@@ -29,6 +29,17 @@
     "bundleID": "com.apple.MobileSMS",
     "file": "NotGone-Messages.shortcut",
     "status": "device-validation-pending",
-    "sha256": "eaeaf756014c3c9afb04facbb32313767cc01111c7d5b6cd48b77171b3779a28"
+    "sha256": "a1e289839c63c12959621dc3f4b9695004d1c0cecdba2a5a6976b6a66b4dc130"
+  },
+  {
+    "slug": "universal",
+    "name": "Universal",
+    "file": "NotGone-Universal.shortcut",
+    "status": "device-validation-pending",
+    "sourceIdentification": "Notification.App.Bundle Identifier",
+    "initialTriggerSources": [
+      "ph.telegra.Telegraph"
+    ],
+    "sha256": "56b9413faa18768b8a9322d279a468e61e440249790ae656f80d9539f4d398e3"
   }
 ]
